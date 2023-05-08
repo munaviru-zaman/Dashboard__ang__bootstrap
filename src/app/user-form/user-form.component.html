@@ -1,0 +1,67 @@
+<section class="main">
+  <section class="container">
+    <form>
+      <h1>User Form</h1>
+      <div class="mb-3">
+        <label for="userId" class="form-label">User ID</label>
+        <input
+          type="text"
+          class="form-control"
+          id="userId"
+          placeholder="Enter User ID"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          placeholder="Enter Name"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="dob" class="form-label">Date of Birth</label>
+        <input type="date" class="form-control" id="dob" required />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Sex</label>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="sex"
+            id="male"
+            value="male"
+            required
+          />
+          <label class="form-check-label" for="male"> Male </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="radio"
+            name="sex"
+            id="female"
+            value="female"
+            required
+          />
+          <label class="form-check-label" for="female"> Female </label>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="contact" class="form-label">Contact Details</label>
+        <input
+          type="text"
+          class="form-control"
+          id="contact"
+          placeholder="Enter Contact Details"
+          required
+        />
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </section>
+</section>
